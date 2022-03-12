@@ -1,0 +1,56 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0,0,0,0.1);
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-right: 5rem;
+}
+.list > li{
+    margin: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: brown;
+}
+.list > li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.logo{
+    width: 4rem;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.main{
+    padding: 3rem;
+    margin: 0 auto;
+    
+
+}
+.list2{
+    list-style: circle;
+}
+.list2 > li{
+    margin: 1rem;
+    font-weight: 600;
+}
+.line{
+    height: 0.15rem;
+    width: 100%;
+    background-color: black;
+}
+.footer{
+    color: antiquewhite;
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+}
